@@ -3,7 +3,7 @@ import { FiSearch, FiShoppingCart } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../API/CartContext.jsx";
 import Loading from "../Loading/Loading.jsx";
-import Cart from "./Cart"; // import the new Cart component
+import Cart from "./Cart";
 const Navbar = ({
   searchQuery,
   setSearchQuery,
